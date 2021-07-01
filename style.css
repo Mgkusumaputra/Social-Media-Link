@@ -133,6 +133,10 @@ body {
   background-color: #ff4500;
 }
 
+.circle ul li:nth-child(6) a:hover {
+  background-color: #1DB954;
+}
+
 .footer {
   text-align: center;
 }
