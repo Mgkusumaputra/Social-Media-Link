@@ -13,6 +13,10 @@ body {
   color: #262626;
 }
 
+.main {
+  padding-bottom: 85px;
+}
+
 .header {
   margin: 20px 0 55px;
   display: flex;
@@ -127,6 +131,10 @@ body {
 
 .circle ul li:nth-child(5) a:hover {
   background-color: #ff4500;
+}
+
+.footer {
+  text-align: center;
 }
 
 @media (max-width: 576px) {
