@@ -31,7 +31,7 @@ body {
   text-decoration: underline;
 }
 
-.discord {
+.long-btn {
   margin: 20px auto;
   border-radius: 20px;
   border: 2px solid #262626;
@@ -47,8 +47,84 @@ body {
   font-size: 18px;
 }
 
-.btn-ctrlr:hover {
+.long-btn:hover {
   color: #f0f0f0;
   background-color: #262626;
   transition-duration: .3s;
+}
+
+.header-circle {
+  height: auto;
+  width: auto;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.header-circle i {
+  margin: 15px;
+}
+
+.circle ul {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.circle ul li {
+  list-style: none;
+  margin: 0 16px;
+}
+
+.circle ul li .fab {
+  font-size: 32px;
+  line-height: 50px;
+  transition: .6s;
+  color: #f0f0f0;
+  list-style: none;
+}
+
+.circle ul li a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #262626;
+  text-align: center;
+  transition: .5s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.circle ul li a:hover{
+  transform: translate(0, -10px);
+  color: #f0f0f0;
+}
+
+.circle ul li:nth-child(1) a:hover{
+  background-color: #333;
+}
+
+.circle ul li:nth-child(2) a:hover{
+  background-color: #000;
+}
+
+.circle ul li:nth-child(3) a:hover{
+  background-color: #e1306c;
+}
+
+.circle ul li:nth-child(4) a:hover{
+  background-color: #1da1f2;
+}
+
+.circle ul li:nth-child(5) a:hover{
+  background-color: #ff4500;
 }
