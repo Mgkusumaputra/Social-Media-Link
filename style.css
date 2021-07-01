@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  margin-top: 20px;
+  margin: 20px 0 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,4 +29,26 @@ body {
 
 .username {
   text-decoration: underline;
+}
+
+.discord {
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  padding: 5px;
+  max-width: 540px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #262626;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn-ctrlr:hover {
+  color: #f0f0f0;
+  background-color: #262626;
+  transition-duration: .3s;
 }
