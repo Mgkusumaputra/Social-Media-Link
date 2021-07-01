@@ -50,7 +50,7 @@ body {
 .long-btn:hover {
   color: #f0f0f0;
   background-color: #262626;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .header-circle {
@@ -84,7 +84,7 @@ body {
 .circle ul li .fab {
   font-size: 32px;
   line-height: 50px;
-  transition: .6s;
+  transition: 0.6s;
   color: #f0f0f0;
   list-style: none;
 }
@@ -100,31 +100,49 @@ body {
   border-radius: 50%;
   background-color: #262626;
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
 
-.circle ul li a:hover{
+.circle ul li a:hover {
   transform: translate(0, -10px);
   color: #f0f0f0;
 }
 
-.circle ul li:nth-child(1) a:hover{
+.circle ul li:nth-child(1) a:hover {
   background-color: #333;
 }
 
-.circle ul li:nth-child(2) a:hover{
+.circle ul li:nth-child(2) a:hover {
   background-color: #000;
 }
 
-.circle ul li:nth-child(3) a:hover{
+.circle ul li:nth-child(3) a:hover {
   background-color: #e1306c;
 }
 
-.circle ul li:nth-child(4) a:hover{
+.circle ul li:nth-child(4) a:hover {
   background-color: #1da1f2;
 }
 
-.circle ul li:nth-child(5) a:hover{
+.circle ul li:nth-child(5) a:hover {
   background-color: #ff4500;
+}
+
+@media (max-width: 576px) {
+  .long-btn {
+    max-width: 500px;
+    font-size: 16px;
+    height: 38px;
+  }
+  .header-circle {
+    font-size: 18px;
+  }
+  .circle ul li .fab {
+    font-size: 24px;
+  }
+  .circle ul li a {
+    width: 40px;
+    height: 40px;
+  }
 }
