@@ -1,5 +1,7 @@
 ## Panduan Penggunaan Template Bio Link Tool
 
+Cek Demo [Disini](https://mgkusumaputra.github.io/Social-Media-Link/)
+
 
 1. Ganti elemen dibawah pada file [index.html](index.html) dengan namamu sendiri.
   ```HTML
