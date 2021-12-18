@@ -9,6 +9,7 @@ html {
 
 body {
   min-height: 100vh;
+  max-width: 100%;
   background-color: #f0f0f0;
   color: #262626;
 }
@@ -33,6 +34,7 @@ body {
 
 .username {
   text-decoration: underline;
+  text-align: center;
 }
 
 .long-btn {
@@ -59,15 +61,16 @@ body {
 
 .circle ul {
   margin: 30px;
-  display: flex;
-  justify-content: center;
   text-align: center;
-  align-items: center;
+  justify-content: center;
+  align-items: center; 
+  /* */
 }
 
 .circle ul li {
+  display: inline-block;
   list-style: none;
-  margin: 0 5px;
+  margin: 0px 5px;
 }
 
 .circle ul li .fab {
@@ -80,44 +83,10 @@ body {
 
 .circle ul li a {
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  text-align: center;
   transition: 0.5s;
-}
-
-.circle ul li a:hover {
-  transform: translate(0, -10px);
-  color: #f0f0f0;
-}
-
-.circle ul li:nth-child(1) a:hover {
-  color: #333;
-}
-
-.circle ul li:nth-child(2) a:hover {
-  color: #000;
-}
-
-.circle ul li:nth-child(3) a:hover {
-  color: #e1306c;
-}
-
-.circle ul li:nth-child(4) a:hover {
-  color: #1da1f2;
-}
-
-.circle ul li:nth-child(5) a:hover {
-  color: #ff4500;
-}
-
-.circle ul li:nth-child(6) a:hover {
-  color: #1DB954;
 }
 
 .footer {
@@ -125,20 +94,33 @@ body {
   margin-bottom: 15px;
 }
 
+.footer a{
+  color: #262626;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 @media (max-width: 576px) {
   .long-btn {
-    max-width: 500px;
-    font-size: 16px;
-    height: 38px;
+    max-width: 270px;
+    font-size: 12px;
+    height: 28px;
   }
-  .header-circle {
-    font-size: 18px;
+  .avatar img {
+    width: 64px;
+    height: 64px;
+  }
+  .username {
+    font-size: 14px;
   }
   .circle ul li .fab {
-    font-size: 32px;
+    font-size: 28px;
   }
   .circle ul li a {
     width: 40px;
     height: 40px;
+  }
+  .footer {
+    font-size: 12px;
   }
 }
