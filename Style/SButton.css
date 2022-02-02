@@ -62,3 +62,11 @@
   .circle ul li .fa-medium:hover {
     color: #12100E;
   }
+
+  .circle ul li .fa-spotify:hover {
+    color: #1DB954;
+  }
+
+  .circle ul li .fa-whatsapp:hover {
+    color: #25D366;
+  }
